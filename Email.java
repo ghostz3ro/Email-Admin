@@ -1,7 +1,7 @@
 import java.util.*;
   public class Email{
      
-    private String username%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22orange%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E__0">;
+    private String username;
     private String firstName;
     private String lastName;
     private String password;
@@ -35,7 +35,7 @@ import java.util.*;
     // Step 3: Ask for the department
     private String setDepartment() {
     System.out.println("DEPARTMENT CODES:\n1 for Sales\n2 for Development\n3 for Accounting\n0 For none.\nEnter Department Code: ");
-    Scanner in%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22orange%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E__0"> = new Scanner(System.in); 
+    Scanner in = new Scanner(System.in); 
     int departmentChoice = in.nextInt();
     if( departmentChoice == 1) {return "sales"; }
     if( departmentChoice == 2) {return "development";}
